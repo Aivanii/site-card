@@ -273,9 +273,12 @@ code{
 		width: 25rem;
 	}
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
 	.profile_image{
 		width: 20rem;
+	}
+	.main{
+		width: 75%;
 	}
 }
 @media screen and (min-width: 1200px) {
