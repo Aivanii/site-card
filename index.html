@@ -8,7 +8,7 @@
 	
     <link rel="stylesheet" type = "text/css" href="static/styles.css"/>
 	
-	<!--link rel="shortcut icon" href="{{ url_for('static', filename = 'favicon.ico') }}" type="image/x-icon"-->
+	<link rel="shortcut icon" href="static/images/icons/site.ico" type="image/x-icon">
   </head>
 <body id = "body">
 	<div id = "body1" class = "body1"></div>
@@ -24,7 +24,7 @@
 						<div class = "container1">
 							<span class = "span1">
 								<strong>
-									Web-Developer
+									Frontend-Developer
 								</strong> <br> <br>
 								he/him | bisexual | Russia
 							</span>
@@ -45,10 +45,15 @@
 					<div class = "container1">
 						<ul class = "ul2">
 							<li>
-								<a href = "#">Portfolio</a>
+								<a href = "resume.html">Resume</a>
 							</li>
 							<li>
 								<a href = "links.html">Links</a>
+							</li>
+						</ul>
+						<ul class = "ul2">
+							<li>
+								<a href = "#">Portfolio</a>
 							</li>
 						</ul>
 					</div>
@@ -62,36 +67,6 @@
 			</div>
 	</div>
 	<script src = "static/scripts/start_anims.js"></script>
-	<!--script>
-		let main_square = document.getElementById("wrapper");
-	
-		let body1 = document.getElementById("body1");
-
-		function body_playing(){
-		
-			let current_date = Date.now();
-			while (current_date + 2000 > Date.now()) {}
-			//body.classList.add('body_playing');
-			body1.classList.remove('body_loading');
-			
-			body1.classList.add('body_playing');
-			body1.style.animation = 'appearance 2s';
-			while (current_date + 2000 > Date.now()) {}
-			body1.classList.remove('body_playing');
-			body1.classList.add('body_ready');
-
-		}
-		body1.classList.add('body_loading');
-		main_square.style.animation = 'appearance_square 2s';
-		document.addEventListener("DOMContentLoaded", body_playing);
-		function main_square_anim(){
-			let current_date = Date.now();
-			let main_square = document.getElementById("wrapper");
-			while (current_date + 2000 > Date.now()) {}
-			main_square.setAttribute("padding-top", "3.5rem");
-		}
-		main_square_anim();
-	</script-->
 </body>
 
 </html>
